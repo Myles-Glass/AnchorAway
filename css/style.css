@@ -1,0 +1,40 @@
+body {
+  font-family: 'Raleway';
+  background-color: #FFFFFF;
+}
+
+p {
+  color: #000000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200 !important;
+  color: #000000;
+}
+
+.menubar {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.pagelink {
+  display:inline-block;
+}
+.pagelink a {
+  padding: 10px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.landingimage {
+  width: 100%;
+}
+
+
+
