@@ -1,5 +1,5 @@
 body {
-  font-family: 'Raleway';
+  font-family: 'Cardo', serif;
   background-color: #FFFFFF;
 }
 
@@ -13,13 +13,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 200 !important;
+  font-family: 'Cardo', serif;
+  font-weight: 700 !important;
   color: #000000;
 }
 
+/* Nav bar */
 .menubar {
-  padding-top: 10px;
+  padding-top: 30px;
   text-align: center;
 }
 
@@ -27,14 +28,55 @@ h6 {
   display:inline-block;
 }
 .pagelink a {
-  padding: 10px;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 20px;
   text-decoration: none;
   color: #000000;
+  transition: 1s;
 }
+
+.pagelink a:hover {
+  color: rgb(140, 140, 140);
+  transition: 0.3s;
+}
+
+.activepage {
+  color: rgb(140, 140, 140) !important;
+}
+
 
 .landingimage {
+  max-width: 800px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 300px;
   width: 100%;
+  height: 100%;
 }
 
+.smalltext { /* footer text */
+  font-size: 11px;
+}
 
+.smalltext a { /* footer text */
+  color: #000000;
+  text-decoration: underline;
+}
 
+.aboutme {
+  margin-top: 50px;
+  max-width: 700px;
+  margin-bottom: 300px;
+
+}
+.aboutme p {
+  font-size: 18px;
+}
+
+.portraitimage {
+  float: left;
+  max-width: 200px;
+  margin-right: 15px;
+}
