@@ -98,13 +98,52 @@ h6 {
 }
 
 /* Footer */
-.smalltext { /* footer text */
+.footercreatedby { /* footer text */
   font-size: 11px;
+  position: absolute;
+  bottom: 0;
+  left: 170px; /* the div was covering the facebook link */
+  right: 170px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
-.smalltext a { /* footer text */
+.footercreatedby a { /* footer text */
   color: #000000;
   text-decoration: underline;
+}
+
+.footercontact {
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+}
+
+.footercontact p {
+  font-size: 14px;
+}
+
+.footercontact a { /* footer text */
+  font-size: 14px;
+  color: #000000;
+  text-decoration: underline;
+}
+
+.footercopyright {
+  font-size: 14px;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+
+.footergradient {
+  margin-top: 200px;
+  height: 150px;
+  position: relative !important;
+  background: -moz-linear-gradient(top, rgba(240,240,240,0) 0%, rgba(240,240,240,0.07) 1%, rgba(240,240,240,1) 15%, rgba(240,240,240,1) 50%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(240,240,240,0) 0%,rgba(240,240,240,0.07) 1%,rgba(240,240,240,1) 15%,rgba(240,240,240,1) 50%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(240,240,240,0) 0%,rgba(240,240,240,0.07) 1%,rgba(240,240,240,1) 15%,rgba(240,240,240,1) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f0f0f0', endColorstr='#f0f0f0',GradientType=0 ); /* IE6-9 */
 }
 
 
