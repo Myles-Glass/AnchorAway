@@ -164,3 +164,16 @@ h6 {
   margin-right: 15px;
 }
 
+/* Portfolio */
+.portfoliowrapper {
+  margin-top: 30px;
+}
+.portfoliopicture {
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
